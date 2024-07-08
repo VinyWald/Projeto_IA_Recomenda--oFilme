@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Filmes</title>
+    <link rel="icon" href="static/icc.png">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <header>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Pesquisar...">
+            <button class="bt1" onclick="fetchRecommendations()">🔍</button>
+        </div>
+    </header>
+
+    <main>
+        <h1 id="tit">Filmes Relacionados</h1>
+        <div class="recommendations-container" id="recommendations-container">
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="https://shoppingestacaobh.com.br/lazer/cinema/">Filmes Em Cartaz</a></li>
+                <li><a href="https://www.imdb.com/calendar/?ref_=nv_mv_cal">Lançamentos</a></li>
+                <li><a href="/recommendations">Recomendação IA</a></li>
+            </ul>
+        </nav>
+   
+        <script src="static/scripts.js"></script>
+        <div class="wrapper">
+            <h>&copy; 2024 Tchunflay soluções Web. Todos os direitos reservados.</h>
+        </div>
+    </footer>
+   
+</body>
+</html>
